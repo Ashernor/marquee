@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ATLabel.h"
 
 @interface SecondViewController : UIViewController
+
+@property (strong, nonatomic) NSArray *marqueeList;
+@property (strong, nonatomic) IBOutlet ATLabel *animatedLabel;
 
 
 @end

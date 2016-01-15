@@ -10,6 +10,12 @@
 
 @interface FirstViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UILabel *marqueesPosted;
+@property (strong, nonatomic) IBOutlet UILabel *marqueesToday;
+
+-(IBAction)sendMarquee:(id)sender;
+
 
 @end
 
